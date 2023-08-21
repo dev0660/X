@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Topic Discussion Forum</title>
+    <link rel="stylesheet" href="Users.css">
+</head>
+<body>
+    <header>
+        <h1>Topic Discussion</h1>
+    </header>
+    <main>
+        <table>
+            <a href="http://127.0.0.1:5501/RegisterPage.html">
+                <button>Create New Account</button>
+            </a>
+        </table>
+    
+        <table>
+            <a href="http://127.0.0.1:5501/LoginToAccount.html">
+                <button>Login to Account</button>
+            </a>
+        </table>
+
+        <section id="post">
+            <h2>Create a Post</h2>
+            <form id="post-form">
+                <textarea id="post-content" placeholder="Share your thoughts..."></textarea>
+                <button type="submit">Post</button>
+            </form>
+        </section>
+        <section id="posts">
+            <h2>Posts</h2>
+            <ul id="posts-list">
+                <!-- Posts will be dynamically added here -->
+            </ul>
+        </section>
+    </main>
+    <script src="Users.js"></script>
+</body>
+</html>
